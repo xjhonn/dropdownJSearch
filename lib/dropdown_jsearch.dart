@@ -1,9 +1,9 @@
-library dropdown_search;
+library dropdown_jsearch;
 
 import 'dart:async';
 
-import 'package:dropdown_search/src/properties/clear_button_props.dart';
-import 'package:dropdown_search/src/properties/dropdown_button_props.dart';
+import 'package:dropdown_jsearch/src/properties/clear_button_props.dart';
+import 'package:dropdown_jsearch/src/properties/dropdown_button_props.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
@@ -811,7 +811,7 @@ class DropdownSearchState<T> extends State<DropdownSearch<T>> {
   ///[data] selected item to be passed to the UI
   ///If we close the popup , or maybe we just selected
   ///another widget we should clear the focus
-  ///THIS USED FOR OPEN DROPDOWN_SEARCH PROGRAMMATICALLY,
+  ///THIS USED FOR OPEN dropdown_jsearch PROGRAMMATICALLY,
   ///otherwise you can you [_selectSearchMode]
   void openDropDownSearch() => _selectSearchMode();
 

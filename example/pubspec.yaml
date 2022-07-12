@@ -19,7 +19,7 @@ environment:
 
 dependencies:
   dio: ^4.0.0
-  dropdown_search:
+  dropdown_jsearch:
      path: ../
   flutter:
     sdk: flutter

@@ -8,11 +8,11 @@
 </h4>
 
 <p align="center">
-  <a href="https://pub.dev/packages/dropdown_search">
+  <a href="https://pub.dev/packages/dropdown_jsearch">
     <img src="https://img.shields.io/badge/build-passing-brightgreen"
          alt="Build">
   </a>
-  <a href="https://pub.dev/packages/dropdown_search"><img src="https://img.shields.io/pub/v/dropdown_search"></a>
+  <a href="https://pub.dev/packages/dropdown_jsearch"><img src="https://img.shields.io/pub/v/dropdown_jsearch"></a>
   <a href="https://www.buymeacoffee.com/SalimDev">
     <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
   </a>
@@ -60,12 +60,12 @@
 
 ## packages.yaml
 ```yaml
-dropdown_search: <lastest version>
+dropdown_jsearch: <lastest version>
 ```
 
 ## Import
 ```dart
-import 'package:dropdown_search/dropdown_search.dart';
+import 'package:dropdown_jsearch/dropdown_jsearch.dart';
 ```
 
 
@@ -177,7 +177,7 @@ DropdownSearch<UserModel>(
 ## Layout customization
 You can customize the layout of the DropdownSearch and its items. [EXAMPLE](https://github.com/salim-lachdhaf/searchable_dropdown/tree/master/example#custom-layout-endpoint-example)
 
-Full documentation [here](https://pub.dev/documentation/dropdown_search/latest/dropdown_search/DropdownSearch-class.html)
+Full documentation [here](https://pub.dev/documentation/dropdown_jsearch/latest/dropdown_jsearch/DropdownSearch-class.html)
 
 # Attention
 To use a template as an item type, and you don't want to use a custom function **itemAsString** and **compareFn** you **need** to implement **toString**, **equals** and **hashcode**, as shown below:

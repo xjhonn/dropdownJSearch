@@ -96,7 +96,7 @@
 * Ignore pointers in itemBuilder & cursor in web
 * Added property to customize DropdownButton Splash Radius
 * added property to set up the splash radius for clear button and for dropdown button in
-  dropdown_search
+  dropdown_jsearch
 * @thanks [Vasiliy](https://github.com/vasilich6107)
 
 ## [0.6.1] - 2021.05.02
